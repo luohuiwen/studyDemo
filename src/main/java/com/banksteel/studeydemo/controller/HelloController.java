@@ -8,6 +8,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(){
+        System.out.println("change");
         return "hello,world";
     }
 }
